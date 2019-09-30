@@ -1,0 +1,12 @@
+li{
+    float: left;
+    color:#2b6cb0;   
+}
+
+li:hover{
+    color: #d8b727; 
+}
+
+nav{
+    align-content: center;
+}
