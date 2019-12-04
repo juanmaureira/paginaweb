@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Inventive</title>
+        <script type="text/javascript" src="js/funciones.js"></script>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="icon" href="./img/favicon.ico">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <img src="./img/inventive.png">
+                <!-- compra -->
+                <img class="icon" src="./img/adduser.png">
+                <img class="icon" src="./img/online-store.png">
+            </div>
+            <div class="nav">
+              <a href="tienda.html" class="nav-item">Tienda</a>
+              <a href="servicios.html" class="nav-item">Servicios</a>
+              <a href="contacto.html" class="nav-item">Contacto</a>
+            </div>
+            <div class="rrss">
+              <!-- redes sociales -->
+              <img src="./img/instagram.png">
+              <img src="./img/facebook.png">
+              <img src="./img/twiter.png">
+              <!-- buscador -->
+            </div>
+        </header>
+        <section style="width: 100%; margin-top: 20px">
+          <section style="width: 30%">
+            <div class="widget">
+              <div class="enlaces">
+                <h3>Enlace Proveedores</h3>
+                <ul>
+                  <li>
+                    <a href="https://lcsc.com/" target="_blank" class="nav-widget">LCSC Electronics</a>
+                  </li>
+                  <li>
+                    <a href="https://www.mouser.cl/?gclid=EAIaIQobChMI87_Pl5Ob5gIVDguRCh1bdgeMEAAYASAAEgKnsPD_BwE" target="_blank" class="nav-widget">Mouser</a>
+                  </li>
+                  <li>
+                    <a href="https://www.digikey.com/es?utm_adgroup=General&utm_term=digikey&slid=&gclid=EAIaIQobChMI_azWvZOb5gIVFwiRCh3hBwogEAAYASAAEgI9Y_D_BwE&utm_campaign=Peru_BR_Spanish_E&utm_medium=cpc&utm_source=google" target="_blank" class="nav-widget">Digikey</a>
+                  </li>
+                </ul>
+              </div>
+          </section>
+          <section style="width: 70%">
+                <h1 class="titulo-form">Formulario de Contacto</h1><br>
+                <form name="form" action="" method="post">
+                  <label>Nombre:</label><br>
+                  <input type="text" name="nombre" placeholder="Tu nombre"><br><br>
+                  <label>Email:</label><br>
+                  <input type="email" name="email" placeholder="Tu correo electrónico"><br><br>
+
+                  <label>Tipo de Contacto:</label><br>
+                  <select name="pais">
+                    <option value="">Seleccione...</option>
+                    <option value="1">Importación</option>
+                    <option value="2">Cotizacion</option>
+                    <option value="3">Venta</option>
+                  </select><br><br>
+                  <label>Comentarios:</label><br>
+                  <textarea name="comentario" style="width: 100%; resize: none" rows="10" placeholder="Tu comentario"></textarea><br><br>
+                  <input class="button" type="submit" onclick="validar();" value="Guardar">
+                </form>
+          </section>
+        </section>
+        <footer>
+           <div class="copyrigth">
+              &copy Inventive
+            </div>
+        </footer>
+
+
+    </body>
+</html>
